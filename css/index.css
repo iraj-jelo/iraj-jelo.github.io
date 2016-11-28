@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: rgb(126, 230, 161);
+  color: rgb(133, 81, 216); /*rgb(126, 230, 161);*/
 }
 
 /* Custom default button */
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #1a9847 /*#1a4798*/;
+  background-color: #4a0d8e /*#1a9847 #1a4798*/;
 }
 .bg{
   background-size: cover;
@@ -38,7 +38,7 @@ body {
   opacity: .2;  
 }
 body {
-  color: rgb(89, 218, 131);
+  color: /*rgb(89, 218, 131)*/ rgb(133, 81, 216);
   text-align: center;
 /*  text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
@@ -135,7 +135,7 @@ body {
  */
 
 .mastfoot {
-  color: rgb(126, 230, 161);
+  color: /*rgb(126, 230, 161)*/ rgb(133, 81, 216);
 }
 
 
