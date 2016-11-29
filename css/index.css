@@ -1,24 +1,10 @@
-/*
- * Globals
- */
 
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: rgb(132, 220, 152)     ; /*rgb(126, 230, 161);*/
+  color: rgba(255, 255, 255, 0.74); /*rgb(126, 230, 161);*/
 }
-
-/* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
-}
-
 
 /*
  * Base structure
@@ -27,7 +13,16 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #00963c /*#1a9847 #1a4798*/;
+}
+body {
+  color: rgba(255, 255, 255, 0.74);
+  background-color: #7b1da2;
+  text-align: center;
+/*  text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+}
+.lead{
+  color: auto;
+  text-shadow: none;
 }
 .bg{
   background-size: cover;
@@ -36,15 +31,6 @@ body {
   height: 100%;
   position: absolute;
   opacity: .2;  
-}
-body {
-  color: /*rgb(89, 218, 131)*/ rgb(133, 81, 216);
-  text-align: center;
-/*  text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
-}
-.lead{
-  color: #fff;
-  text-shadow: none;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -129,14 +115,6 @@ body {
   font-weight: bold;
 }
 
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: rgb(126, 230, 161);
-}
 
 
 /*
