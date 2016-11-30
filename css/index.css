@@ -35,8 +35,9 @@ body {
 
 .btn-warning {
     color: #fff;
-    background-color: rgb(210, 115, 49) /*rgb(195, 103, 38)*/;
+    background-color: rgb(218, 118, 48) /*rgb(195, 103, 38)*/;
     /* border-color: #eea236; */
+    border:none;
 }
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
