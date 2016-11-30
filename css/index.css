@@ -33,6 +33,11 @@ body {
   opacity: .2;  
 }
 
+.btn-warning {
+    color: #fff;
+    background-color: rgb(195, 103, 38);
+    /* border-color: #eea236; */
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
