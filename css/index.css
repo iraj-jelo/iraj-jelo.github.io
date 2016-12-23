@@ -3,7 +3,7 @@
 a,
 a:focus,
 a:hover {
-  color: rgba(255, 255, 255, 0.74); /*rgb(126, 230, 161);*/
+  color: #78a9d4; /*rgb(126, 230, 161);*/
 }
 
 /*
@@ -15,10 +15,12 @@ body {
   height: 100%;
 }
 body {
-  color: rgba(255, 255, 255, 0.74);
-  background-color: #5b1877;
+  color: #ffffff;
+  background-color: #2e66b2;
   text-align: center;
-/*  text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  /*background-image:url('../img/grid-me.png');*/
+ text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 .lead{
   color: auto;
@@ -26,18 +28,12 @@ body {
 }
 .bg{
   background-size: cover;
-  /*background-image:url('../img/i3.png');*/
   width: 100%;
   height: 100%;
   position: absolute;
-  opacity: .2;  
+  opacity: .2;
 }
 
-.btn-warning {
-    color: #fff;
-    background-color: rgb(228, 132, 65) /*rgb(195, 103, 38)*/;
-    border-color: rgb(228, 132, 65);
-}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -58,7 +54,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 15px;
 }
 
 
@@ -70,6 +66,12 @@ body {
   margin-bottom: 10px;
 }
 
+@media (min-width: 768px){
+.masthead-brand {
+    float: left;
+}
+
+}
 .masthead-nav > li {
   display: inline-block;
 }
@@ -94,17 +96,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
+  color: #e3ff5d;
   border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
 }
 
 
@@ -156,6 +149,14 @@ body {
   }
 }
 
+.mastfoot{
+  position: fixed;
+  bottom:0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background: auto;
+}
 .img-circle{
     height: 124px;
     width: 124px;
@@ -164,17 +165,26 @@ body {
 }
 
 .icon{
-    font-size: 30px !important;
+    font-size: 22px !important;
     padding: 5px;
 }
 
 .social-link{
-    display: inline; 
+    display: inline;
     margin: 4px
     padding:38px;
 }
 
 .social-link:hover{
     /*background-color: #ffcc00;*/
-  color: #f7ff97 /*#ffd803*/;
+  color: #ddff37 /*#ffd803*/;
+  cursor: pointer;
+}
+
+.mastfoot{
+  color: #78a9d4;
+}
+.mastfoot p{
+  color: #78a9d4;
+  margin:0;
 }
