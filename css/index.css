@@ -1,9 +1,12 @@
-
+@font-face {
+    font-family: legofont;
+    src: url('../fonts/lego-brix/LEGO BRIX.ttf');
+}
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #78a9d4; /*rgb(126, 230, 161);*/
+  color: #e9d589; /*rgb(126, 230, 161);*/
 }
 
 /*
@@ -16,7 +19,14 @@ body {
 }
 body {
   color: #ffffff;
-  background-color: #2e66b2;
+  background-color: #5c3387;
+  background: #4f3b5b;
+  background: -moz-radial-gradient(center, ellipse cover,  #4f3b5b 0%, #231733 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4f3b5b), color-stop(100%,#231733));
+  background: -webkit-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);
+  background: -o-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);
+  background: radial-gradient(ellipse at center,  #4f3b5b 0%,#231733 100%);
   text-align: center;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   /*background-image:url('../img/grid-me.png');*/
@@ -25,6 +35,7 @@ body {
 .lead{
   color: auto;
   text-shadow: none;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .bg{
   background-size: cover;
@@ -181,10 +192,8 @@ body {
   cursor: pointer;
 }
 
-.mastfoot{
-  color: #78a9d4;
-}
-.mastfoot p{
-  color: #78a9d4;
+.mastfoot p {
+  color: #8d7f9c;
+  text-shadow: none;
   margin:0;
 }
